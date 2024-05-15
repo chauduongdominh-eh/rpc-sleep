@@ -1,7 +1,10 @@
 # gRPC example
 
-The server has a single function that waits for a specific duration before
-return.
+In this example, the server has a single function to sleep for a specific
+seconds before return. The client calls the function and wait for server
+response, then print out whatever returned
+
+## Development
 
 Regenerate the code with:
 
