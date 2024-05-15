@@ -1,0 +1,11 @@
+service Silly {
+    rpc SleepFor(SleepRequest) returns (SleepResponse);
+}
+
+message SleepRequest { 
+    required int32 duration = 1;
+}
+
+message SleepResponse { 
+    required string message = 1;
+}
