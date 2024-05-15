@@ -1,10 +1,12 @@
+#!/usr/bin/ruby
+
 # frozen_string_literal: true
 
 # Bad, but proper setup will take much more time,
 # so please bear with me
 $LOAD_PATH << 'lib'
 
-require_relative './server/silly_services_pb'
+require 'silly_services_pb'
 
 class Server < Silly::Service
   # @param [SleepRequest] request

@@ -6,8 +6,7 @@
 # so please bear with me
 $LOAD_PATH << 'lib'
 
-require 'silly_pb'
-require_relative './server/silly_services_pb'
+require 'silly_services_pb'
 
 RED = "\e[31m"
 RESET = "\e[m"
